@@ -20,8 +20,8 @@ export default function Home() {
     const newMnemonic = generateMnemonic();
     setMnemonic ( newMnemonic);
     const seed = mnemonicToSeedSync(newMnemonic);
-    const newPublicKey = [];
-    const newBalance = [];
+    const newPublicKey:any = [];
+    const newBalance:any = [];
     for(let i=0; i<4;i++){
       
     
